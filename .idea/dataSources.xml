@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Integration / Test3 (oracle)" uuid="e4b1e84e-9407-41f1-8d8b-5989e63f6142">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@meboralobdev101.metmom.mmih.biz:1521:test3</jdbc-url>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Integration / Test3 (DB2)" uuid="95d064ea-b7b4-402f-bed8-8008a84c72f0">
+      <driver-ref>db2.jtopen</driver-ref>
+      <jdbc-driver>com.ibm.as400.access.AS400JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:as400://mebdev/orbwebdevl;naming=SYSTEM;access=all read call;date format=iso;libraries=ORBWEBDEVL,FAW.DEVL,FAW.TEST,FAW.PROD,FAW.BASPRD/orbwebdevl</jdbc-url>
+      <explain-plan-config>
+        <provider>com.intellij.database.plan.ExplainPlanProvider.NullExplainPlanProvider</provider>
+      </explain-plan-config>
+      <driver-properties>
+        <property name="prompt" value="false" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>

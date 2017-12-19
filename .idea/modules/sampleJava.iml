@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="sampleJava" external.linked.project.path="$MODULE_DIR$/../../sampleJava" external.root.project.path="$MODULE_DIR$/../../sampleJava" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../sampleJava/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../sampleJava/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../sampleJava">
+      <sourceFolder url="file://$MODULE_DIR$/../../sampleJava/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../sampleJava/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../sampleJava/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../sampleJava/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../sampleJava/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../sampleJava/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../sampleJava/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Gradle: 3rdparty:junit:4.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: 3rdparty:log4j:1.2.14" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: 3rdparty:ojdbc6:1.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: 3rdparty:libphonenumber:8.8.4" level="project" />
+  </component>
+  <component name="sonarModuleSettings">
+    <option name="alternativeWorkingDirPath" value="" />
+    <option name="localAnalysisScripName" value="&lt;PROJECT&gt;" />
+    <option name="serverName" value="&lt;PROJECT&gt;" />
+    <option name="useAlternativeWorkingDir" value="false" />
+    <option name="workingDirSelection" value="&lt;MODULE&gt;" />
+  </component>
+</module>

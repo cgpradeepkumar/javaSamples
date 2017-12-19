@@ -1,0 +1,12 @@
+2016-10-06 12:12:38 INFO  Circle:11 - Enter Circle.draw
+2016-10-06 12:12:38 INFO  Circle:13 - Exit Circle.draw
+2016-10-06 12:13:03 INFO  Circle:11 - Enter Circle.draw
+2016-10-06 12:13:03 INFO  Circle:13 - Exit Circle.draw
+2016-10-06 12:16:09 INFO  Circle:11 - Enter Circle.draw
+2016-10-06 12:16:09 INFO  Circle:13 - Exit Circle.draw
+2016-10-06 12:16:09 INFO  Rectangle:11 - Enter Rectangle.draw
+2016-10-06 12:16:09 INFO  Rectangle:13 - Exit Rectangle.draw
+2016-10-10 15:17:05 INFO  Circle:11 - Enter Circle.draw
+2016-10-10 15:17:05 INFO  Circle:13 - Exit Circle.draw
+2016-10-10 15:17:05 INFO  Rectangle:11 - Enter Rectangle.draw
+2016-10-10 15:17:05 INFO  Rectangle:13 - Exit Rectangle.draw

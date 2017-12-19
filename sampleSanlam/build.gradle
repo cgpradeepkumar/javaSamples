@@ -1,0 +1,19 @@
+
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['ejbModule']
+        }
+    }
+}
+
+repositories {
+
+}
+
+
+dependencies {
+
+}

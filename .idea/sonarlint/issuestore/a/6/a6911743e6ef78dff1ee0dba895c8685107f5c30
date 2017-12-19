@@ -1,0 +1,20 @@
+
+Ysquid:S1197"8Move the array designator from the variable to the type.(ÎÍµúÿÿÿÿ8úµ,
+jsquid:S3008"NRename this field "LOG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ßƒÄ8úµ,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8æŸ¤‘,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8óª«‘,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8æŸ¤‘,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(åŞˆÁ8±ºª‘,
+Csquid:S1068"'Remove this unused "LOG" private field.(¾ßƒÄ8±ºª‘,
+bsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Â×—šúÿÿÿÿ8§œ·,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8æŸ¤‘,
+`squid:S2147"DCombine this catch with the one at line 51, which has the same body.(ï­£Ä8æŸ¤‘,
+Ksquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8•‘³,
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(±»ÄE8°•Å‘,
+bsquid:S2259"FA "NullPointerException" could be thrown; "workbook" is nullable here.(ò›Üä8æŸ¤‘,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÌÈ›’ùÿÿÿÿ8¸·‘,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(şæ£ñşÿÿÿÿ8˜İ¬‘,

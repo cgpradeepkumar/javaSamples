@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:f="http://java.sun.com/jsf/core"
+xmlns:h="http://java.sun.com/jsf/html">
+ 
+    <h:head>
+        <title>Select And Unselect All</title>
+    </h:head>
+ 
+    <h:body>
+        <h3>Select And Unselect All</h3>
+        
+        <f:view>
+        	<h:form id="sampleForm">
+        		<h:messages />
+        		<h:dataTable var="memberData" value="#{selectUnSelectAllBean.memberDataList}">
+        			<h:column>
+        				<f:facet name="header">Name</f:facet>
+        				<h:outputText value="#{memberData.name}"></h:outputText>
+        			</h:column>
+        			<h:column>
+        				<f:facet name="header">email</f:facet>
+        				<h:inputText id="emailId" value="#{memberData.email}" required="#{selected.submittedValue eq true}">
+        					<f:attribute name="selected" value="#{selected}"></f:attribute>
+        					<f:validator validatorId="customEmailValidator" />
+        				</h:inputText>
+        				<h:message for="emailId" style="color: red"/>
+        			</h:column>
+        			<h:column>
+        				<f:facet name="header">Select</f:facet>
+        				<h:selectBooleanCheckbox binding="#{selected}" value="#{memberData.selected}"></h:selectBooleanCheckbox>
+        			</h:column>
+        		</h:dataTable>
+        		
+        		<h:commandButton immediate="true" value="#{selectUnSelectAllBean.buttonLabel}" action="#{selectUnSelectAllBean.selectAll}"></h:commandButton>
+        		<h:commandButton value="Submit" action="#{selectUnSelectAllBean.submit}"></h:commandButton>
+        	</h:form>
+        </f:view>
+    </h:body>
+ 
+</html>

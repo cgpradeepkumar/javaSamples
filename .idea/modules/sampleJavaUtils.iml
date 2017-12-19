@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="sampleJavaUtils" external.linked.project.path="$MODULE_DIR$/../../sampleJavaUtils" external.root.project.path="$MODULE_DIR$/../../sampleJavaUtils" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../sampleJavaUtils/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../sampleJavaUtils/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../sampleJavaUtils">
+      <sourceFolder url="file://$MODULE_DIR$/../../sampleJavaUtils/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../sampleJavaUtils/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../sampleJavaUtils/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../sampleJavaUtils/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../sampleJavaUtils/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../sampleJavaUtils/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../sampleJavaUtils/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Gradle: 3rdparty:junit:4.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: 3rdparty:log4j:1.2.14" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.poi:poi-ooxml:3.17" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.poi:poi-ooxml-schemas:3.17" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.github.virtuald:curvesapi:1.04" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: stax:stax-api:1.0.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.poi:poi:3.17" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.apache.commons:commons-collections4:4.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
+  </component>
+  <component name="sonarModuleSettings">
+    <option name="alternativeWorkingDirPath" value="" />
+    <option name="localAnalysisScripName" value="&lt;PROJECT&gt;" />
+    <option name="serverName" value="&lt;PROJECT&gt;" />
+    <option name="useAlternativeWorkingDir" value="false" />
+    <option name="workingDirSelection" value="&lt;MODULE&gt;" />
+  </component>
+</module>

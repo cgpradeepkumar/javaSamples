@@ -1,0 +1,22 @@
+
+apply plugin: 'java'
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/java']
+        }
+        resources {
+            srcDirs = ['src/resources']
+        }
+    }
+}
+
+repositories {
+
+}
+
+
+dependencies {
+
+}

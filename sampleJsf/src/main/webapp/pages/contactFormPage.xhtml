@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+	<title>Contact Form</title>
+	<!-- <h:outputStylesheet name="css/common-style.css" target="head"></h:outputStylesheet> -->
+</h:head>
+<body>
+	<ui:composition template="/template/common/layout.xhtml">
+	<ui:define name="content">
+	<f:view>
+	<h:form>
+		<div class="page_content">
+			<h:panelGrid columns="1">
+				<h:outputLabel id="firstNameLbl">First Name</h:outputLabel>
+				<h:inputText id="firstNameTxt" value="#{contactFormBean.firstName}"></h:inputText>
+				<h:outputLabel id="lastNameLbl">Last Name</h:outputLabel>
+				<h:inputText id="lastNameTxt" value="#{contactFormBean.lastName}"></h:inputText>
+				<h:commandButton value="Submit"></h:commandButton>
+			</h:panelGrid>
+		</div>
+		</h:form>
+	</f:view>
+	</ui:define>
+	</ui:composition>
+</body>
+</html>

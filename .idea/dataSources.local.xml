@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Integration / Test3 (oracle)" uuid="e4b1e84e-9407-41f1-8d8b-5989e63f6142">
+      <database-info product="Oracle" version="Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production&#10;With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options" jdbc-version="4.0" driver-name="Oracle JDBC driver" driver-version="12.1.0.2.0">
+        <extra-name-characters>$#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>testuser3</user-name>
+      <introspection-schemas>*:TESTUSER3</introspection-schemas>
+    </data-source>
+    <data-source name="Integration / Test3 (DB2)" uuid="95d064ea-b7b4-402f-bed8-8008a84c72f0">
+      <database-info product="DB2 UDB for AS/400" version="07.01.0000 V7R1m0" jdbc-version="4.0" driver-name="AS/400 Toolbox for Java JDBC Driver" driver-version="10.3">
+        <extra-name-characters>$@#</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>webuser</user-name>
+      <introspection-schemas>*:ORBWEBDEVL|MEBDEV:ORBWEBDEVL</introspection-schemas>
+    </data-source>
+  </component>
+</project>
